@@ -76,7 +76,7 @@ const App = () => {
     </svg>
       </div>
         <div className="main-page w-full h-screen relative overflow-hidden">
-          <div className="nav w-full absolute top-0  left-0 z-20 font-[Pricedown] text-white py-5 px-10 flex items-center justify-between">
+          <div className="nav w-full absolute top-0  left-0 z-20 text-white py-5 px-10 flex items-center justify-between">
             <h3 className="text-3xl">rockstar</h3>
             <div className="hamburger-menu text-right">
               <div className="w-10 h-2 bg-white my-1"></div>
@@ -98,7 +98,7 @@ const App = () => {
               alt=""
             />
           </div>
-          <div className="heading font-[Pricedown] text-8xl text-white absolute top-1/3 left-1/2">
+          <div className="heading text-8xl text-white absolute top-1/3 left-1/2">
             <h1 className="absolute -translate-x-60 -translate-y-40">grand</h1>
             <h1 className="absolute -translate-x-32 -translate-y-16">theft</h1>
             <h1 className="absolute -translate-x-70 translate-y-1">auto</h1>
