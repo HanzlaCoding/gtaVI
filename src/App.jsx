@@ -53,10 +53,10 @@ const App = () => {
       ease: "Power4.easeInOut"
     })
   })
-  return (
+  return ( 
     <>
-      <main className="bg-zinc-950 w-full">
-      <div className="gta-6-svg bg-zinc-950 w-full h-full absolute z-100 top-0 left-0">
+      <main className="bg-zinc-950 w-full min-h-screen relative">
+      <div className="gta-6-svg bg-zinc-950 w-full h-full absolute z-100 top-0 left-0 ">
       <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <mask id="maskEffect">
